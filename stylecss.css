@@ -1,0 +1,50 @@
+
+body {
+    background-color: white;
+   
+
+}
+
+.h1   {
+    font-family: 'Comic Sans MS Bold', arial;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    
+}
+.h2   {
+    font-family: 'Comic Sans MS Bold', arial;
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
+.p    {
+    padding-top: 5%;
+    font-family: 'Comic Sans MS Bold', arial;
+    font-size: 15px;
+    
+}
+.p2   {
+    padding-top: 40%;
+    font-family: 'Comic Sans MS Bold', arial;
+    font-size: 15px;
+
+}
+
+img {
+    width: 150%;
+    height: 300%;
+    text-align: center;
+    display: block;
+    margin: 0% auto;
+} 
+
+img2 {
+    width: 150%;
+    height: 300%;
+    text-align: center;
+    display: block;
+    margin: 0% auto;
+} 
+    
+
