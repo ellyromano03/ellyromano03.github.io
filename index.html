@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Sito di prova</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="bcss.css"/>
+  <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="stylecss.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
@@ -19,61 +20,56 @@
     </div>
     
     <body>
-        <h1 class="h1">VACANZA</h1>
-        <h2 class="h2">Torino</h2>
+        <h1 class="h1" style="border:2px solid Violet;">GIAPPONE</h1>
+        <h2 class="h2">COSA VEDERE</h2>
         <div>
-            <p class="p">I primi giorni delle vacanze di Natale sono andata a Torino con i miei genitori e mia sorella. Verso mezzogiorno ci siamo sistemati nell'albergo e nel pomeriggio abbiamo visitato il museo del cinema. Anche se era nostra intenzione salire sulla Mole Antonelliana ma era chiusa al pubblico. Il giorno dopo abbiamo visitato il museo Egizio e fatto un giro tra le piazze della città.</p>
+            <p class="p">1- Ciliegi in fiore<br>
+                Arriva la primavera e i ciliegi di tutto il Giappone fioriscono. La gente si raduna nei parchi o lungo le sponde dei fiumi. I luoghi migliori per lo hanami sono il parco di Kyoto Maruyama-koen e lo Yoyoji-koen di Tokyo.</p>
             <div class="col-sm-4">
-                <img class="img" src="img/IMG_20200315_160107.jpg" alt="Torino">
+                <img id="img" src="img/ciliegio.jpg" alt="Ciliegio" style="text-align: center;">
+                <p></p>
+                <button onclick="myFunction()">Clicca per vedere più immagini</button>
+
+                <script>
+                function myFunction() {
+                    document.getElementById("img").src = "img/ciliegio2.jpg";
+                }
+                </script>
                 
-            </div>
-            <div class="col-sm-4">
-                <img class="img4" src="img/italian.jpg" alt="Torino">
-            </div>
-            <div class="col-sm-4">
-                <img class="img5" src="img/th.jpg" alt="Torino">
-            </div>
             
-            <p>Posti visitati:</p>
-            <p>I. museo del cinema</p>
-            <p>II. museo egizio</p>
-            <p>III. centro storico</p>
-    
             <p></p>
-            <p>Cose fatte:</p>
-            <p>a. visitato il museo del cinema</p>
-            <p>b. visitato il museo egizio</p>
-            <p>c. visitato il centro storico</p>
-            <p>d. siamo entrati in svariate cioccolaterie :)</p>
             
-        
+            <a href="https://www.repubblica.it/esteri/2021/03/21/news/covid_niente_ciliegi_in_fiore_per_i_giapponesi-293201034/">Ciliegi e il covid</a>
+            
     
         </div>
-        
-    <body>
-        <h3 class="h3">HOBBY</h3>
-        <h4 class="h4">Disegno digitale e tradizionale</h4>
         <div>
-            <p2 class="p2">Il mio hobby è il disegno che può essere diviso tra tradizionale cioè realizzato con materiali tradizionali, come matite, pennelli, ecc. e digitale, quindi realizzato con software specifici e tavolette grafiche.</p2>
+            <p class="p2">2- Templi e giardini di Kyoto<br>
+                Kyoto ha più di un migliaio di templi. Alcuni grandiosi, come il Kinkaku-ji, altri con un fascino più sottile, come lo Shoren-in e altri più contemplativi, come il Ryoan-ji.
+            </p>
             <div class="col-sm-4">
-                <img class="img2" src="img/IMG_20200214_163147.jpg" alt="Disegno">
-            </div>
-            <div class="col-sm-4">
-                <img class="img6" src="img/tavolette-grafiche.jpg" alt="Disegno">
-            </div>
-            <div class="col-sm-4">
-                <img class="img7" src="img/1.-Huion-H610PRO-EU.jpg" alt="Disegno">
-            </div>
+                <img id="img2" src="img/kinkaku.jpg" alt="tempio" style="text-align: center;">
+                <p></p>
+                <button onclick="myFunction()">Clicca per vedere più immagini</button>
+
+                <script>
+                function myFunction() {
+                    document.getElementById("img2").src = "img/shoren.jpg";
+                }
+                </script>
+                
+                <p></p>
             
-            
-            <img class="img3" src="img/tabella.jpg" alt="Tab">
-            <a href="https://www.wacom.com/it">Clicca qui per il link del sito Wacom</a>
-    
+                <a href="https://www.japan-experience.it/citta-kyoto/tema-templi-e-santuari">Informazioni</a>
+                 
+                
         </div>
+        
       
     </div>   
     
     </body>
+
     
     
     
